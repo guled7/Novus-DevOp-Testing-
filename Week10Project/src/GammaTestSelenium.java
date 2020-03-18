@@ -31,7 +31,7 @@ public class GammaTestSelenium {
 	@Test
 	public static void setUp() {
 		System.setProperty("webdriver.chrome.driver",
-				"");
+				""); // location of ChromeDriver on system
 		driver = new ChromeDriver();
 		driver.get("http://tutorialsninja.com/demo/index.php?route=common/home");
 //		return driver;

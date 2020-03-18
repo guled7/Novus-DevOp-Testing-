@@ -1,0 +1,3380 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-online_store_Selenium_TEST">
+              <span class="suite-name border-failed">online_store_Selenium_TEST</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-online_store_Selenium_TEST">
+                    <span>websiteAutomationTest.XML</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-online_store_Selenium_TEST">
+                    <span class="test-stats">30 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-online_store_Selenium_TEST">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-online_store_Selenium_TEST">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-online_store_Selenium_TEST">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-online_store_Selenium_TEST">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-online_store_Selenium_TEST">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">88 methods, 2 failed,   86 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-online_store_Selenium_TEST" class="hide-methods failed suite-online_store_Selenium_TEST"> (hide)</a> <!-- hide-methods failed suite-online_store_Selenium_TEST -->
+                      <a href="#" panel-name="suite-online_store_Selenium_TEST" class="show-methods failed suite-online_store_Selenium_TEST"> (show)</a> <!-- show-methods failed suite-online_store_Selenium_TEST -->
+                    </span>
+                    <div class="method-list-content failed suite-online_store_Selenium_TEST">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG050">testG050</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG059">testG059</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-online_store_Selenium_TEST -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-online_store_Selenium_TEST" class="hide-methods passed suite-online_store_Selenium_TEST"> (hide)</a> <!-- hide-methods passed suite-online_store_Selenium_TEST -->
+                      <a href="#" panel-name="suite-online_store_Selenium_TEST" class="show-methods passed suite-online_store_Selenium_TEST"> (show)</a> <!-- show-methods passed suite-online_store_Selenium_TEST -->
+                    </span>
+                    <div class="method-list-content passed suite-online_store_Selenium_TEST">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="GammaTestSelenium" hash-for-method="endOfTests">endOfTests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="setUp">setUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="GammaTestSelenium" hash-for-method="shutDown">shutDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG031">testG031</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG032">testG032</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG033">testG033</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG034">testG034</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG035">testG035</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG036">testG036</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG037">testG037</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG038">testG038</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG039">testG039</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG040">testG040</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Cart" hash-for-method="testG041">testG041</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG042">testG042</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG043">testG043</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG044">testG044</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG045">testG045</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG046">testG046</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG047">testG047</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG048">testG048</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG049">testG049</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG051">testG051</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG052">testG052</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG053">testG053</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG054">testG054</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG055">testG055</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG056">testG056</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG057">testG057</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-online_store_Selenium_TEST" title="Checkout" hash-for-method="testG058">testG058</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-online_store_Selenium_TEST -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-online_store_Selenium_TEST" class="panel online_store_Selenium_TEST">
+          <div class="suite-online_store_Selenium_TEST-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Checkout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG050">
+                  </a> <!-- testG050 -->
+                  <span class="method-name">testG050</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;// *[@id=&quot;forced-fail&quot;]&quot;}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;G-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1c09:b99:9827:350a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/8b/xt9v49tx5m5...}, goog:chromeOptions: {debuggerAddress: localhost:49521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f8ad3f9439785a17625bb2c327762d9
+*** Element info: {Using=xpath, value=// *[@id=&quot;forced-fail&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Checkout.testG050(Checkout.java:164)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG059">
+                  </a> <!-- testG059 -->
+                  <span class="method-name">testG059</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;// *[@id=&quot;forced-fail&quot;]&quot;}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;G-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:1c09:b99:9827:350a%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/8b/xt9v49tx5m5...}, goog:chromeOptions: {debuggerAddress: localhost:49755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7e83db5f00f81b90737e10be4e7b7488
+*** Element info: {Using=xpath, value=// *[@id=&quot;forced-fail&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Checkout.testG059(Checkout.java:298)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-online_store_Selenium_TEST-class-failed -->
+          <div class="suite-online_store_Selenium_TEST-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Cart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG031">
+                  </a> <!-- testG031 -->
+                  <span class="method-name">testG031</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG032">
+                  </a> <!-- testG032 -->
+                  <span class="method-name">testG032</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG033">
+                  </a> <!-- testG033 -->
+                  <span class="method-name">testG033</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG034">
+                  </a> <!-- testG034 -->
+                  <span class="method-name">testG034</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG035">
+                  </a> <!-- testG035 -->
+                  <span class="method-name">testG035</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG036">
+                  </a> <!-- testG036 -->
+                  <span class="method-name">testG036</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG037">
+                  </a> <!-- testG037 -->
+                  <span class="method-name">testG037</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG038">
+                  </a> <!-- testG038 -->
+                  <span class="method-name">testG038</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG039">
+                  </a> <!-- testG039 -->
+                  <span class="method-name">testG039</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG040">
+                  </a> <!-- testG040 -->
+                  <span class="method-name">testG040</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG041">
+                  </a> <!-- testG041 -->
+                  <span class="method-name">testG041</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-online_store_Selenium_TEST-class-passed -->
+          <div class="suite-online_store_Selenium_TEST-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Checkout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setUp">
+                  </a> <!-- setUp -->
+                  <span class="method-name">setUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG042">
+                  </a> <!-- testG042 -->
+                  <span class="method-name">testG042</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG043">
+                  </a> <!-- testG043 -->
+                  <span class="method-name">testG043</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG044">
+                  </a> <!-- testG044 -->
+                  <span class="method-name">testG044</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG045">
+                  </a> <!-- testG045 -->
+                  <span class="method-name">testG045</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG046">
+                  </a> <!-- testG046 -->
+                  <span class="method-name">testG046</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG047">
+                  </a> <!-- testG047 -->
+                  <span class="method-name">testG047</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG048">
+                  </a> <!-- testG048 -->
+                  <span class="method-name">testG048</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG049">
+                  </a> <!-- testG049 -->
+                  <span class="method-name">testG049</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG051">
+                  </a> <!-- testG051 -->
+                  <span class="method-name">testG051</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG052">
+                  </a> <!-- testG052 -->
+                  <span class="method-name">testG052</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG053">
+                  </a> <!-- testG053 -->
+                  <span class="method-name">testG053</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG054">
+                  </a> <!-- testG054 -->
+                  <span class="method-name">testG054</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG055">
+                  </a> <!-- testG055 -->
+                  <span class="method-name">testG055</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG056">
+                  </a> <!-- testG056 -->
+                  <span class="method-name">testG056</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG057">
+                  </a> <!-- testG057 -->
+                  <span class="method-name">testG057</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testG058">
+                  </a> <!-- testG058 -->
+                  <span class="method-name">testG058</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-online_store_Selenium_TEST-class-passed -->
+          <div class="suite-online_store_Selenium_TEST-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">GammaTestSelenium</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="endOfTests">
+                  </a> <!-- endOfTests -->
+                  <span class="method-name">endOfTests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shutDown">
+                  </a> <!-- shutDown -->
+                  <span class="method-name">shutDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-online_store_Selenium_TEST-class-passed -->
+        </div> <!-- panel online_store_Selenium_TEST -->
+        <div panel-name="test-xml-online_store_Selenium_TEST" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/guledmohamed/eclipse-workspace/Week10Project/src/websiteAutomationTest.XML</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;online_store_Selenium_TEST&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G031&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG031&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G031 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G032&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG032&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G032 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G033&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG033&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G033 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G034&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG034&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G034 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G035&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG035&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G035 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G036&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG036&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G036 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G037&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG037&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G037 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G038&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG038&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G038 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G039&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG039&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G039 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G040&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG040&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G040 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G041&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Cart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG041&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Cart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G041 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G042&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG042&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G042 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G043&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG043&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G043 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G044&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG044&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G044 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G045&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG045&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G045 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G046&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG046&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G046 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G047&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG047&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G047 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G048&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG048&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G048 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G049&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG049&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G049 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G050&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG050&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G050 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G051&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG051&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G051 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G052&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG052&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G052 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G053&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG053&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G053 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G054&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG054&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G054 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G055&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG055&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G055 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G056&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG056&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G056 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G057&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG057&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G057 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G058&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG058&quot;/&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G058 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;G059&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Checkout&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;testG059&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Checkout --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- G059 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Final_Test_Results&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;GammaTestSelenium&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;shutDown&quot;/&gt;
+          &lt;include name=&quot;endOfTests&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- GammaTestSelenium --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Final_Test_Results --&gt;
+&lt;/suite&gt; &lt;!-- online_store_Selenium_TEST --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-online_store_Selenium_TEST" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for online_store_Selenium_TEST</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">G031 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G032 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G033 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G034 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G035 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G036 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G037 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G038 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G039 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G040 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G041 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G042 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G043 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G044 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G045 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G046 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G047 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G048 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G049 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G050 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G051 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G052 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G053 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G054 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G055 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G056 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G057 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G058 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">G059 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Final_Test_Results (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-online_store_Selenium_TEST" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for online_store_Selenium_TEST</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-online_store_Selenium_TEST" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for online_store_Selenium_TEST</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_online_store_Selenium_TEST');
+function tableData_online_store_Selenium_TEST() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(88);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testG055')
+data.setCell(0, 2, 'Checkout')
+data.setCell(0, 3, 13049);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testG058')
+data.setCell(1, 2, 'Checkout')
+data.setCell(1, 3, 6712);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testG050')
+data.setCell(2, 2, 'Checkout')
+data.setCell(2, 3, 6614);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testG049')
+data.setCell(3, 2, 'Checkout')
+data.setCell(3, 3, 6585);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testG059')
+data.setCell(4, 2, 'Checkout')
+data.setCell(4, 3, 6524);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testG048')
+data.setCell(5, 2, 'Checkout')
+data.setCell(5, 3, 6517);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testG057')
+data.setCell(6, 2, 'Checkout')
+data.setCell(6, 3, 6166);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testG047')
+data.setCell(7, 2, 'Checkout')
+data.setCell(7, 3, 6165);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'setUp')
+data.setCell(8, 2, 'Checkout')
+data.setCell(8, 3, 5596);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testG045')
+data.setCell(9, 2, 'Checkout')
+data.setCell(9, 3, 5443);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testG056')
+data.setCell(10, 2, 'Checkout')
+data.setCell(10, 3, 5250);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'setUp')
+data.setCell(11, 2, 'Cart')
+data.setCell(11, 3, 5146);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'setUp')
+data.setCell(12, 2, 'Checkout')
+data.setCell(12, 3, 5077);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'setUp')
+data.setCell(13, 2, 'Checkout')
+data.setCell(13, 3, 4965);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'setUp')
+data.setCell(14, 2, 'Cart')
+data.setCell(14, 3, 4915);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'setUp')
+data.setCell(15, 2, 'Checkout')
+data.setCell(15, 3, 4855);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'setUp')
+data.setCell(16, 2, 'Checkout')
+data.setCell(16, 3, 4854);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'setUp')
+data.setCell(17, 2, 'Cart')
+data.setCell(17, 3, 4758);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'setUp')
+data.setCell(18, 2, 'Checkout')
+data.setCell(18, 3, 4711);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testG046')
+data.setCell(19, 2, 'Checkout')
+data.setCell(19, 3, 4706);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'setUp')
+data.setCell(20, 2, 'Checkout')
+data.setCell(20, 3, 4632);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'setUp')
+data.setCell(21, 2, 'Checkout')
+data.setCell(21, 3, 4466);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testG044')
+data.setCell(22, 2, 'Checkout')
+data.setCell(22, 3, 4451);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'setUp')
+data.setCell(23, 2, 'Checkout')
+data.setCell(23, 3, 4310);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'setUp')
+data.setCell(24, 2, 'Checkout')
+data.setCell(24, 3, 4238);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'setUp')
+data.setCell(25, 2, 'Checkout')
+data.setCell(25, 3, 4199);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'setUp')
+data.setCell(26, 2, 'Checkout')
+data.setCell(26, 3, 4177);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'setUp')
+data.setCell(27, 2, 'Checkout')
+data.setCell(27, 3, 4131);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'setUp')
+data.setCell(28, 2, 'Checkout')
+data.setCell(28, 3, 4075);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testG054')
+data.setCell(29, 2, 'Checkout')
+data.setCell(29, 3, 4070);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'setUp')
+data.setCell(30, 2, 'Checkout')
+data.setCell(30, 3, 3761);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'setUp')
+data.setCell(31, 2, 'Cart')
+data.setCell(31, 3, 3637);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'setUp')
+data.setCell(32, 2, 'Cart')
+data.setCell(32, 3, 3606);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'setUp')
+data.setCell(33, 2, 'Cart')
+data.setCell(33, 3, 3576);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'setUp')
+data.setCell(34, 2, 'Checkout')
+data.setCell(34, 3, 3574);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'setUp')
+data.setCell(35, 2, 'Cart')
+data.setCell(35, 3, 3560);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'setUp')
+data.setCell(36, 2, 'Cart')
+data.setCell(36, 3, 3556);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'setUp')
+data.setCell(37, 2, 'Cart')
+data.setCell(37, 3, 3532);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'setUp')
+data.setCell(38, 2, 'Checkout')
+data.setCell(38, 3, 3528);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'setUp')
+data.setCell(39, 2, 'Cart')
+data.setCell(39, 3, 3502);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'setUp')
+data.setCell(40, 2, 'Cart')
+data.setCell(40, 3, 3491);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'setUp')
+data.setCell(41, 2, 'Checkout')
+data.setCell(41, 3, 3385);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testG043')
+data.setCell(42, 2, 'Checkout')
+data.setCell(42, 3, 3230);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testG053')
+data.setCell(43, 2, 'Checkout')
+data.setCell(43, 3, 2927);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testG052')
+data.setCell(44, 2, 'Checkout')
+data.setCell(44, 3, 2845);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testG031')
+data.setCell(45, 2, 'Cart')
+data.setCell(45, 3, 2769);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testG051')
+data.setCell(46, 2, 'Checkout')
+data.setCell(46, 3, 2476);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testG032')
+data.setCell(47, 2, 'Cart')
+data.setCell(47, 3, 2327);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testG042')
+data.setCell(48, 2, 'Checkout')
+data.setCell(48, 3, 2256);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testG040')
+data.setCell(49, 2, 'Cart')
+data.setCell(49, 3, 1989);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testG038')
+data.setCell(50, 2, 'Cart')
+data.setCell(50, 3, 1701);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testG039')
+data.setCell(51, 2, 'Cart')
+data.setCell(51, 3, 1567);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testG035')
+data.setCell(52, 2, 'Cart')
+data.setCell(52, 3, 1521);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testG033')
+data.setCell(53, 2, 'Cart')
+data.setCell(53, 3, 1472);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'testG037')
+data.setCell(54, 2, 'Cart')
+data.setCell(54, 3, 1418);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'testG034')
+data.setCell(55, 2, 'Cart')
+data.setCell(55, 3, 1321);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'testG041')
+data.setCell(56, 2, 'Cart')
+data.setCell(56, 3, 859);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'testG036')
+data.setCell(57, 2, 'Cart')
+data.setCell(57, 3, 742);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'shutDown')
+data.setCell(58, 2, 'Cart')
+data.setCell(58, 3, 267);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'shutDown')
+data.setCell(59, 2, 'Cart')
+data.setCell(59, 3, 234);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'shutDown')
+data.setCell(60, 2, 'Checkout')
+data.setCell(60, 3, 233);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'shutDown')
+data.setCell(61, 2, 'Cart')
+data.setCell(61, 3, 230);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'shutDown')
+data.setCell(62, 2, 'Cart')
+data.setCell(62, 3, 228);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'shutDown')
+data.setCell(63, 2, 'Cart')
+data.setCell(63, 3, 219);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'shutDown')
+data.setCell(64, 2, 'Cart')
+data.setCell(64, 3, 213);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'shutDown')
+data.setCell(65, 2, 'Checkout')
+data.setCell(65, 3, 187);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'shutDown')
+data.setCell(66, 2, 'Cart')
+data.setCell(66, 3, 177);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'shutDown')
+data.setCell(67, 2, 'GammaTestSelenium')
+data.setCell(67, 3, 177);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'shutDown')
+data.setCell(68, 2, 'Checkout')
+data.setCell(68, 3, 175);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'shutDown')
+data.setCell(69, 2, 'Cart')
+data.setCell(69, 3, 173);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'shutDown')
+data.setCell(70, 2, 'Checkout')
+data.setCell(70, 3, 172);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'shutDown')
+data.setCell(71, 2, 'Cart')
+data.setCell(71, 3, 169);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'shutDown')
+data.setCell(72, 2, 'Checkout')
+data.setCell(72, 3, 167);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'shutDown')
+data.setCell(73, 2, 'Checkout')
+data.setCell(73, 3, 166);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'shutDown')
+data.setCell(74, 2, 'Checkout')
+data.setCell(74, 3, 161);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'shutDown')
+data.setCell(75, 2, 'Cart')
+data.setCell(75, 3, 159);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'shutDown')
+data.setCell(76, 2, 'Checkout')
+data.setCell(76, 3, 156);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'shutDown')
+data.setCell(77, 2, 'Checkout')
+data.setCell(77, 3, 153);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'shutDown')
+data.setCell(78, 2, 'Cart')
+data.setCell(78, 3, 150);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'shutDown')
+data.setCell(79, 2, 'Checkout')
+data.setCell(79, 3, 147);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'shutDown')
+data.setCell(80, 2, 'Checkout')
+data.setCell(80, 3, 147);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'shutDown')
+data.setCell(81, 2, 'Checkout')
+data.setCell(81, 3, 142);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'shutDown')
+data.setCell(82, 2, 'Checkout')
+data.setCell(82, 3, 133);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'shutDown')
+data.setCell(83, 2, 'Checkout')
+data.setCell(83, 3, 132);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'shutDown')
+data.setCell(84, 2, 'Checkout')
+data.setCell(84, 3, 129);
+data.setCell(85, 0, 85)
+data.setCell(85, 1, 'shutDown')
+data.setCell(85, 2, 'Checkout')
+data.setCell(85, 3, 117);
+data.setCell(86, 0, 86)
+data.setCell(86, 1, 'shutDown')
+data.setCell(86, 2, 'Checkout')
+data.setCell(86, 3, 114);
+data.setCell(87, 0, 87)
+data.setCell(87, 1, 'endOfTests')
+data.setCell(87, 2, 'GammaTestSelenium')
+data.setCell(87, 3, 1);
+window.suiteTableData['online_store_Selenium_TEST']= { tableData: data, tableDiv: 'times-div-online_store_Selenium_TEST'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-online_store_Selenium_TEST">
+              </div> <!-- times-div-online_store_Selenium_TEST -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-online_store_Selenium_TEST" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for online_store_Selenium_TEST</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-online_store_Selenium_TEST" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">447 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Cart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG038</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG039</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG041</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG040</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG032</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG031</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG034</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG033</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG036</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG035</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">testG037</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Checkout</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shutDown</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG042</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG053</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG045</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG048</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG047</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG044</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG043</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG046</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG049</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG056</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG059</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG058</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG052</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG055</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG054</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG057</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG051</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">testG050</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+                <span class="ignored-method-name">endOfTests</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">GammaTestSelenium</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-online_store_Selenium_TEST" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Cart</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG031</span>
+                <span class="method-start">4991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">7790 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8598 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG032</span>
+                <span class="method-start">13799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">16157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG033</span>
+                <span class="method-start">21453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">22933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG034</span>
+                <span class="method-start">26841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">28187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG035</span>
+                <span class="method-start">32199 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">33728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG036</span>
+                <span class="method-start">37640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">38390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">38740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG037</span>
+                <span class="method-start">42247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">43675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG038</span>
+                <span class="method-start">47655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">49364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG039</span>
+                <span class="method-start">53326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">54898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG040</span>
+                <span class="method-start">58782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">60777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG041</span>
+                <span class="method-start">64705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">65570 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Checkout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">65927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG042</span>
+                <span class="method-start">69692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">71956 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG043</span>
+                <span class="method-start">76459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">79699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG044</span>
+                <span class="method-start">84079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">88534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG045</span>
+                <span class="method-start">92280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">97728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">98061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG046</span>
+                <span class="method-start">102374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">107086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">107352 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG047</span>
+                <span class="method-start">112210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">118383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">118648 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG048</span>
+                <span class="method-start">123124 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">129644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">130089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG049</span>
+                <span class="method-start">133665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">140253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">140478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testG050</span>
+                <span class="method-start">145335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">151975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">152286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG051</span>
+                <span class="method-start">155673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">158155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">158425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG052</span>
+                <span class="method-start">162605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">165451 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">165699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG053</span>
+                <span class="method-start">169900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">172829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">173014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG054</span>
+                <span class="method-start">177147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">181220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">181431 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG055</span>
+                <span class="method-start">186510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">199560 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">199827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG056</span>
+                <span class="method-start">205425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">210677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">210903 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG057</span>
+                <span class="method-start">215870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">222037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">222214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testG058</span>
+                <span class="method-start">226926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">233643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">setUp</span>
+                <span class="method-start">233787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testG059</span>
+                <span class="method-start">238420 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">GammaTestSelenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">shutDown</span>
+                <span class="method-start">244967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">endOfTests</span>
+                <span class="method-start">245145 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

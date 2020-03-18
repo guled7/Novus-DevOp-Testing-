@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="447" total="535" passed="86">
+  <reporter-output>
+  </reporter-output>
+  <suite name="online_store_Selenium_TEST" duration-ms="245326" started-at="2020-03-18T04:38:13 GMT" finished-at="2020-03-18T04:42:19 GMT">
+    <groups>
+    </groups>
+    <test name="G031" duration-ms="8265" started-at="2020-03-18T04:38:13 GMT" finished-at="2020-03-18T04:38:22 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@2b2948e2]" name="setUp" duration-ms="4915" started-at="2020-03-18T04:38:14 GMT" finished-at="2020-03-18T04:38:18 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG031()[pri:0, instance:Cart@2b2948e2]" name="testG031" duration-ms="2769" started-at="2020-03-18T04:38:19 GMT" finished-at="2020-03-18T04:38:21 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG031 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@2b2948e2]" name="shutDown" duration-ms="267" started-at="2020-03-18T04:38:21 GMT" finished-at="2020-03-18T04:38:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G031 -->
+    <test name="G032" duration-ms="7886" started-at="2020-03-18T04:38:22 GMT" finished-at="2020-03-18T04:38:30 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@6e6c3152]" name="setUp" duration-ms="5146" started-at="2020-03-18T04:38:22 GMT" finished-at="2020-03-18T04:38:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG032()[pri:0, instance:Cart@6e6c3152]" name="testG032" duration-ms="2327" started-at="2020-03-18T04:38:27 GMT" finished-at="2020-03-18T04:38:30 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG032 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@6e6c3152]" name="shutDown" duration-ms="228" started-at="2020-03-18T04:38:30 GMT" finished-at="2020-03-18T04:38:30 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G032 -->
+    <test name="G033" duration-ms="6455" started-at="2020-03-18T04:38:30 GMT" finished-at="2020-03-18T04:38:37 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@3a883ce7]" name="setUp" duration-ms="4758" started-at="2020-03-18T04:38:30 GMT" finished-at="2020-03-18T04:38:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG033()[pri:0, instance:Cart@3a883ce7]" name="testG033" duration-ms="1472" started-at="2020-03-18T04:38:35 GMT" finished-at="2020-03-18T04:38:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG033 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@3a883ce7]" name="shutDown" duration-ms="150" started-at="2020-03-18T04:38:36 GMT" finished-at="2020-03-18T04:38:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G033 -->
+    <test name="G034" duration-ms="5155" started-at="2020-03-18T04:38:37 GMT" finished-at="2020-03-18T04:38:42 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@3224f60b]" name="setUp" duration-ms="3532" started-at="2020-03-18T04:38:37 GMT" finished-at="2020-03-18T04:38:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG034()[pri:0, instance:Cart@3224f60b]" name="testG034" duration-ms="1321" started-at="2020-03-18T04:38:40 GMT" finished-at="2020-03-18T04:38:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG034 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@3224f60b]" name="shutDown" duration-ms="234" started-at="2020-03-18T04:38:42 GMT" finished-at="2020-03-18T04:38:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G034 -->
+    <test name="G035" duration-ms="5342" started-at="2020-03-18T04:38:42 GMT" finished-at="2020-03-18T04:38:48 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@30b8a058]" name="setUp" duration-ms="3576" started-at="2020-03-18T04:38:42 GMT" finished-at="2020-03-18T04:38:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG035()[pri:0, instance:Cart@30b8a058]" name="testG035" duration-ms="1521" started-at="2020-03-18T04:38:46 GMT" finished-at="2020-03-18T04:38:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG035 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@30b8a058]" name="shutDown" duration-ms="213" started-at="2020-03-18T04:38:47 GMT" finished-at="2020-03-18T04:38:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G035 -->
+    <test name="G036" duration-ms="4447" started-at="2020-03-18T04:38:48 GMT" finished-at="2020-03-18T04:38:52 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@5e853265]" name="setUp" duration-ms="3491" started-at="2020-03-18T04:38:48 GMT" finished-at="2020-03-18T04:38:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG036()[pri:0, instance:Cart@5e853265]" name="testG036" duration-ms="742" started-at="2020-03-18T04:38:51 GMT" finished-at="2020-03-18T04:38:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG036 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@5e853265]" name="shutDown" duration-ms="177" started-at="2020-03-18T04:38:52 GMT" finished-at="2020-03-18T04:38:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G036 -->
+    <test name="G037" duration-ms="5120" started-at="2020-03-18T04:38:52 GMT" finished-at="2020-03-18T04:38:57 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@76707e36]" name="setUp" duration-ms="3502" started-at="2020-03-18T04:38:52 GMT" finished-at="2020-03-18T04:38:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG037()[pri:0, instance:Cart@76707e36]" name="testG037" duration-ms="1418" started-at="2020-03-18T04:38:56 GMT" finished-at="2020-03-18T04:38:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG037 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@76707e36]" name="shutDown" duration-ms="173" started-at="2020-03-18T04:38:57 GMT" finished-at="2020-03-18T04:38:57 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G037 -->
+    <test name="G038" duration-ms="5489" started-at="2020-03-18T04:38:58 GMT" finished-at="2020-03-18T04:39:03 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@3fd7a715]" name="setUp" duration-ms="3606" started-at="2020-03-18T04:38:58 GMT" finished-at="2020-03-18T04:39:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG038()[pri:0, instance:Cart@3fd7a715]" name="testG038" duration-ms="1701" started-at="2020-03-18T04:39:01 GMT" finished-at="2020-03-18T04:39:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG038 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@3fd7a715]" name="shutDown" duration-ms="159" started-at="2020-03-18T04:39:03 GMT" finished-at="2020-03-18T04:39:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G038 -->
+    <test name="G039" duration-ms="5393" started-at="2020-03-18T04:39:03 GMT" finished-at="2020-03-18T04:39:09 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@2d6eabae]" name="setUp" duration-ms="3637" started-at="2020-03-18T04:39:03 GMT" finished-at="2020-03-18T04:39:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG039()[pri:0, instance:Cart@2d6eabae]" name="testG039" duration-ms="1567" started-at="2020-03-18T04:39:07 GMT" finished-at="2020-03-18T04:39:08 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG039 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@2d6eabae]" name="shutDown" duration-ms="169" started-at="2020-03-18T04:39:08 GMT" finished-at="2020-03-18T04:39:09 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G039 -->
+    <test name="G040" duration-ms="5794" started-at="2020-03-18T04:39:09 GMT" finished-at="2020-03-18T04:39:15 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@56aac163]" name="setUp" duration-ms="3556" started-at="2020-03-18T04:39:09 GMT" finished-at="2020-03-18T04:39:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG040()[pri:0, instance:Cart@56aac163]" name="testG040" duration-ms="1989" started-at="2020-03-18T04:39:12 GMT" finished-at="2020-03-18T04:39:14 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG040 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@56aac163]" name="shutDown" duration-ms="230" started-at="2020-03-18T04:39:14 GMT" finished-at="2020-03-18T04:39:15 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G040 -->
+    <test name="G041" duration-ms="4659" started-at="2020-03-18T04:39:15 GMT" finished-at="2020-03-18T04:39:19 GMT">
+      <class name="Cart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Cart@5f282abb]" name="setUp" duration-ms="3560" started-at="2020-03-18T04:39:15 GMT" finished-at="2020-03-18T04:39:18 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG041()[pri:0, instance:Cart@5f282abb]" name="testG041" duration-ms="859" started-at="2020-03-18T04:39:18 GMT" finished-at="2020-03-18T04:39:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG041 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Cart@5f282abb]" name="shutDown" duration-ms="219" started-at="2020-03-18T04:39:19 GMT" finished-at="2020-03-18T04:39:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Cart -->
+    </test> <!-- G041 -->
+    <test name="G042" duration-ms="6210" started-at="2020-03-18T04:39:19 GMT" finished-at="2020-03-18T04:39:26 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@15d0c81b]" name="setUp" duration-ms="3761" started-at="2020-03-18T04:39:19 GMT" finished-at="2020-03-18T04:39:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG042()[pri:0, instance:Checkout@15d0c81b]" name="testG042" duration-ms="2256" started-at="2020-03-18T04:39:23 GMT" finished-at="2020-03-18T04:39:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG042 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@15d0c81b]" name="shutDown" duration-ms="172" started-at="2020-03-18T04:39:26 GMT" finished-at="2020-03-18T04:39:26 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G042 -->
+    <test name="G043" duration-ms="7653" started-at="2020-03-18T04:39:26 GMT" finished-at="2020-03-18T04:39:33 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@33f88ab]" name="setUp" duration-ms="4238" started-at="2020-03-18T04:39:26 GMT" finished-at="2020-03-18T04:39:30 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG043()[pri:0, instance:Checkout@33f88ab]" name="testG043" duration-ms="3230" started-at="2020-03-18T04:39:30 GMT" finished-at="2020-03-18T04:39:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG043 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@33f88ab]" name="shutDown" duration-ms="156" started-at="2020-03-18T04:39:33 GMT" finished-at="2020-03-18T04:39:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G043 -->
+    <test name="G044" duration-ms="8703" started-at="2020-03-18T04:39:34 GMT" finished-at="2020-03-18T04:39:42 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@e320068]" name="setUp" duration-ms="4075" started-at="2020-03-18T04:39:34 GMT" finished-at="2020-03-18T04:39:38 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG044()[pri:0, instance:Checkout@e320068]" name="testG044" duration-ms="4451" started-at="2020-03-18T04:39:38 GMT" finished-at="2020-03-18T04:39:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG044 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@e320068]" name="shutDown" duration-ms="153" started-at="2020-03-18T04:39:42 GMT" finished-at="2020-03-18T04:39:42 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G044 -->
+    <test name="G045" duration-ms="9218" started-at="2020-03-18T04:39:42 GMT" finished-at="2020-03-18T04:39:52 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@57e1b0c]" name="setUp" duration-ms="3528" started-at="2020-03-18T04:39:42 GMT" finished-at="2020-03-18T04:39:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG045()[pri:0, instance:Checkout@57e1b0c]" name="testG045" duration-ms="5443" started-at="2020-03-18T04:39:46 GMT" finished-at="2020-03-18T04:39:51 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG045 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@57e1b0c]" name="shutDown" duration-ms="233" started-at="2020-03-18T04:39:51 GMT" finished-at="2020-03-18T04:39:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G045 -->
+    <test name="G046" duration-ms="9199" started-at="2020-03-18T04:39:52 GMT" finished-at="2020-03-18T04:40:01 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@7a1ebcd8]" name="setUp" duration-ms="4310" started-at="2020-03-18T04:39:52 GMT" finished-at="2020-03-18T04:39:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG046()[pri:0, instance:Checkout@7a1ebcd8]" name="testG046" duration-ms="4706" started-at="2020-03-18T04:39:56 GMT" finished-at="2020-03-18T04:40:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG046 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@7a1ebcd8]" name="shutDown" duration-ms="166" started-at="2020-03-18T04:40:01 GMT" finished-at="2020-03-18T04:40:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G046 -->
+    <test name="G047" duration-ms="11215" started-at="2020-03-18T04:40:01 GMT" finished-at="2020-03-18T04:40:12 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@34c4973]" name="setUp" duration-ms="4854" started-at="2020-03-18T04:40:01 GMT" finished-at="2020-03-18T04:40:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG047()[pri:0, instance:Checkout@34c4973]" name="testG047" duration-ms="6165" started-at="2020-03-18T04:40:06 GMT" finished-at="2020-03-18T04:40:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG047 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@34c4973]" name="shutDown" duration-ms="175" started-at="2020-03-18T04:40:12 GMT" finished-at="2020-03-18T04:40:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G047 -->
+    <test name="G048" duration-ms="11171" started-at="2020-03-18T04:40:12 GMT" finished-at="2020-03-18T04:40:23 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@bd8db5a]" name="setUp" duration-ms="4466" started-at="2020-03-18T04:40:12 GMT" finished-at="2020-03-18T04:40:17 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG048()[pri:0, instance:Checkout@bd8db5a]" name="testG048" duration-ms="6517" started-at="2020-03-18T04:40:17 GMT" finished-at="2020-03-18T04:40:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG048 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@bd8db5a]" name="shutDown" duration-ms="167" started-at="2020-03-18T04:40:23 GMT" finished-at="2020-03-18T04:40:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G048 -->
+    <test name="G049" duration-ms="10300" started-at="2020-03-18T04:40:24 GMT" finished-at="2020-03-18T04:40:34 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@2a556333]" name="setUp" duration-ms="3574" started-at="2020-03-18T04:40:24 GMT" finished-at="2020-03-18T04:40:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG049()[pri:0, instance:Checkout@2a556333]" name="testG049" duration-ms="6585" started-at="2020-03-18T04:40:27 GMT" finished-at="2020-03-18T04:40:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG049 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@2a556333]" name="shutDown" duration-ms="132" started-at="2020-03-18T04:40:34 GMT" finished-at="2020-03-18T04:40:34 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G049 -->
+    <test name="G050" duration-ms="11647" started-at="2020-03-18T04:40:34 GMT" finished-at="2020-03-18T04:40:46 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@7e2d773b]" name="setUp" duration-ms="4855" started-at="2020-03-18T04:40:34 GMT" finished-at="2020-03-18T04:40:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testG050()[pri:0, instance:Checkout@7e2d773b]" name="testG050" duration-ms="6614" started-at="2020-03-18T04:40:39 GMT" finished-at="2020-03-18T04:40:46 GMT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"// *[@id="forced-fail"]"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'G-MacBook-Pro.local', ip: 'fe80:0:0:0:1c09:b99:9827:350a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/8b/xt9v49tx5m5...}, goog:chromeOptions: {debuggerAddress: localhost:49521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f8ad3f9439785a17625bb2c327762d9
+*** Element info: {Using=xpath, value=// *[@id="forced-fail"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"// *[@id="forced-fail"]"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'G-MacBook-Pro.local', ip: 'fe80:0:0:0:1c09:b99:9827:350a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/8b/xt9v49tx5m5...}, goog:chromeOptions: {debuggerAddress: localhost:49521}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f8ad3f9439785a17625bb2c327762d9
+*** Element info: {Using=xpath, value=// *[@id="forced-fail"]}
+at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Checkout.testG050(Checkout.java:164)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG050 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@7e2d773b]" name="shutDown" duration-ms="142" started-at="2020-03-18T04:40:46 GMT" finished-at="2020-03-18T04:40:46 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G050 -->
+    <test name="G051" duration-ms="6026" started-at="2020-03-18T04:40:46 GMT" finished-at="2020-03-18T04:40:52 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@2353b3e6]" name="setUp" duration-ms="3385" started-at="2020-03-18T04:40:46 GMT" finished-at="2020-03-18T04:40:49 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG051()[pri:0, instance:Checkout@2353b3e6]" name="testG051" duration-ms="2476" started-at="2020-03-18T04:40:49 GMT" finished-at="2020-03-18T04:40:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG051 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@2353b3e6]" name="shutDown" duration-ms="147" started-at="2020-03-18T04:40:52 GMT" finished-at="2020-03-18T04:40:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G051 -->
+    <test name="G052" duration-ms="7178" started-at="2020-03-18T04:40:52 GMT" finished-at="2020-03-18T04:40:59 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@fad74ee]" name="setUp" duration-ms="4177" started-at="2020-03-18T04:40:52 GMT" finished-at="2020-03-18T04:40:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG052()[pri:0, instance:Checkout@fad74ee]" name="testG052" duration-ms="2845" started-at="2020-03-18T04:40:56 GMT" finished-at="2020-03-18T04:40:59 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG052 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@fad74ee]" name="shutDown" duration-ms="147" started-at="2020-03-18T04:40:59 GMT" finished-at="2020-03-18T04:40:59 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G052 -->
+    <test name="G053" duration-ms="7269" started-at="2020-03-18T04:40:59 GMT" finished-at="2020-03-18T04:41:07 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@3e57cd70]" name="setUp" duration-ms="4199" started-at="2020-03-18T04:40:59 GMT" finished-at="2020-03-18T04:41:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG053()[pri:0, instance:Checkout@3e57cd70]" name="testG053" duration-ms="2927" started-at="2020-03-18T04:41:03 GMT" finished-at="2020-03-18T04:41:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG053 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@3e57cd70]" name="shutDown" duration-ms="133" started-at="2020-03-18T04:41:06 GMT" finished-at="2020-03-18T04:41:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G053 -->
+    <test name="G054" duration-ms="8326" started-at="2020-03-18T04:41:07 GMT" finished-at="2020-03-18T04:41:15 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@6b9651f3]" name="setUp" duration-ms="4131" started-at="2020-03-18T04:41:07 GMT" finished-at="2020-03-18T04:41:11 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG054()[pri:0, instance:Checkout@6b9651f3]" name="testG054" duration-ms="4070" started-at="2020-03-18T04:41:11 GMT" finished-at="2020-03-18T04:41:15 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG054 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@6b9651f3]" name="shutDown" duration-ms="117" started-at="2020-03-18T04:41:15 GMT" finished-at="2020-03-18T04:41:15 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G054 -->
+    <test name="G055" duration-ms="18313" started-at="2020-03-18T04:41:15 GMT" finished-at="2020-03-18T04:41:33 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@7ce6a65d]" name="setUp" duration-ms="5077" started-at="2020-03-18T04:41:15 GMT" finished-at="2020-03-18T04:41:20 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG055()[pri:0, instance:Checkout@7ce6a65d]" name="testG055" duration-ms="13049" started-at="2020-03-18T04:41:20 GMT" finished-at="2020-03-18T04:41:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG055 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@7ce6a65d]" name="shutDown" duration-ms="161" started-at="2020-03-18T04:41:33 GMT" finished-at="2020-03-18T04:41:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G055 -->
+    <test name="G056" duration-ms="11046" started-at="2020-03-18T04:41:33 GMT" finished-at="2020-03-18T04:41:44 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@42d8062c]" name="setUp" duration-ms="5596" started-at="2020-03-18T04:41:33 GMT" finished-at="2020-03-18T04:41:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG056()[pri:0, instance:Checkout@42d8062c]" name="testG056" duration-ms="5250" started-at="2020-03-18T04:41:39 GMT" finished-at="2020-03-18T04:41:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG056 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@42d8062c]" name="shutDown" duration-ms="187" started-at="2020-03-18T04:41:44 GMT" finished-at="2020-03-18T04:41:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G056 -->
+    <test name="G057" duration-ms="11265" started-at="2020-03-18T04:41:44 GMT" finished-at="2020-03-18T04:41:56 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@5f3a4b84]" name="setUp" duration-ms="4965" started-at="2020-03-18T04:41:44 GMT" finished-at="2020-03-18T04:41:49 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG057()[pri:0, instance:Checkout@5f3a4b84]" name="testG057" duration-ms="6166" started-at="2020-03-18T04:41:49 GMT" finished-at="2020-03-18T04:41:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG057 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@5f3a4b84]" name="shutDown" duration-ms="129" started-at="2020-03-18T04:41:56 GMT" finished-at="2020-03-18T04:41:56 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G057 -->
+    <test name="G058" duration-ms="11550" started-at="2020-03-18T04:41:56 GMT" finished-at="2020-03-18T04:42:07 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@12f41634]" name="setUp" duration-ms="4711" started-at="2020-03-18T04:41:56 GMT" finished-at="2020-03-18T04:42:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testG058()[pri:0, instance:Checkout@12f41634]" name="testG058" duration-ms="6712" started-at="2020-03-18T04:42:00 GMT" finished-at="2020-03-18T04:42:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG058 -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:Checkout@12f41634]" name="shutDown" duration-ms="114" started-at="2020-03-18T04:42:07 GMT" finished-at="2020-03-18T04:42:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- Checkout -->
+    </test> <!-- G058 -->
+    <test name="G059" duration-ms="11160" started-at="2020-03-18T04:42:07 GMT" finished-at="2020-03-18T04:42:19 GMT">
+      <class name="Checkout">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Checkout@1e7c7811]" name="setUp" duration-ms="4632" started-at="2020-03-18T04:42:07 GMT" finished-at="2020-03-18T04:42:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testG059()[pri:0, instance:Checkout@1e7c7811]" name="testG059" duration-ms="6524" started-at="2020-03-18T04:42:12 GMT" finished-at="2020-03-18T04:42:19 GMT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"// *[@id="forced-fail"]"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'G-MacBook-Pro.local', ip: 'fe80:0:0:0:1c09:b99:9827:350a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/8b/xt9v49tx5m5...}, goog:chromeOptions: {debuggerAddress: localhost:49755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7e83db5f00f81b90737e10be4e7b7488
+*** Element info: {Using=xpath, value=// *[@id="forced-fail"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"// *[@id="forced-fail"]"}
+  (Session info: chrome=80.0.3987.122)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'G-MacBook-Pro.local', ip: 'fe80:0:0:0:1c09:b99:9827:350a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.3', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.122, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/8b/xt9v49tx5m5...}, goog:chromeOptions: {debuggerAddress: localhost:49755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7e83db5f00f81b90737e10be4e7b7488
+*** Element info: {Using=xpath, value=// *[@id="forced-fail"]}
+at sun.reflect.GeneratedConstructorAccessor21.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at Checkout.testG059(Checkout.java:298)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testG059 -->
+      </class> <!-- Checkout -->
+    </test> <!-- G059 -->
+    <test name="Final_Test_Results" duration-ms="180" started-at="2020-03-18T04:42:19 GMT" finished-at="2020-03-18T04:42:19 GMT">
+      <class name="GammaTestSelenium">
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:GammaTestSelenium@76a3e297]" name="shutDown" duration-ms="177" started-at="2020-03-18T04:42:19 GMT" finished-at="2020-03-18T04:42:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+        <test-method status="PASS" signature="endOfTests()[pri:0, instance:GammaTestSelenium@76a3e297]" name="endOfTests" duration-ms="1" started-at="2020-03-18T04:42:19 GMT" finished-at="2020-03-18T04:42:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfTests -->
+      </class> <!-- GammaTestSelenium -->
+    </test> <!-- Final_Test_Results -->
+  </suite> <!-- online_store_Selenium_TEST -->
+</testng-results>

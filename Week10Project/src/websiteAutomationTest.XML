@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ <suite name="online_store_Selenium_TEST" parallel="false">
+ 
+ <!-- Cart test cases -->
+
+	<test name="G031">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG031" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="G032">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG032" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+<test name="G033">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG033" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+
+<test name="G034">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG034" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="G035">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG035" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="G036">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG036" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="G037">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG037" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="G038">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG038" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="G039">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG039" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="G040">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG040" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+	
+	<test name="G041">
+		<classes>
+			<class name="Cart" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG041" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test> 
+
+	
+	
+<!-- checkout page test cases -->
+<!-- 						  --> 
+
+	<test name="G042">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG042" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="G043">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG043" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="G044">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG044" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="G045">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG045" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="G046">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG046" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="G047">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG047" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="G048">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG048" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="G049">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG049" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="G050">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG050" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="G051">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG051" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="G052">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG052" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="G053">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG053" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="G054">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG054" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="G055">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG055" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="G056">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG056" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="G057">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG057" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+		
+	<test name="G058">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG058" />
+				<include name="shutDown" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+		
+	<test name="G059">
+		<classes>
+			<class name="Checkout" >
+			<methods>
+				<include name="setUp" />
+				<include name="testG059" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+<!-- Generating all test case Reports   -->
+<!--  									-->
+<test name="Final_Test_Results">
+		<classes>
+			<class name="GammaTestSelenium" >
+			<methods>
+				<include name="shutDown" />
+				<include name="endOfTests" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>  

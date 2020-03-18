@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [online_store_Selenium_TEST]">
+  <test thread-count="5" name="G050(failed)">
+    <classes>
+      <class name="Checkout">
+        <methods>
+          <include name="testG050"/>
+        </methods>
+      </class> <!-- Checkout -->
+    </classes>
+  </test> <!-- G050(failed) -->
+  <test thread-count="5" name="G059(failed)">
+    <classes>
+      <class name="Checkout">
+        <methods>
+          <include name="testG059"/>
+        </methods>
+      </class> <!-- Checkout -->
+    </classes>
+  </test> <!-- G059(failed) -->
+</suite> <!-- Failed suite [online_store_Selenium_TEST] -->
